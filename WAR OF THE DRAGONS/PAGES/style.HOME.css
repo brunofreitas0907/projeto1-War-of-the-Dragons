@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../IMAGES/finish-background-image.png);
+    background-size: cover;
+    color: white;
+}
+
+#logo-game {
+    width: 100%;
+    height: 200px;
+}
+
+.game-name {
+    margin: 10px;
+}
+
+.game-name h1 {
+    font-size: 60px;
+}
+
+.game-buttons button {
+    padding: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    margin: 5px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.game-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
